@@ -1,0 +1,54 @@
+.container {
+  border: 1px solid pink;
+}
+::selection {
+  color: purple;
+  background: pink;
+}
+
+.container::before,
+::after {
+  color: orange;
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  border: 1px solid orange;
+}
+.container::before {
+  content: "before";
+}
+.container::after {
+  content: "after";
+}
+.subtitle {
+  color: #444857;
+}
+p {
+  color: #444857;
+}
+p.paragraph::first-letter {
+  font-size: x-large;
+  color: darkblue;
+}
+p.paragraph::first-line {
+  font-weight: 800;
+  color: brown;
+}
+section {
+  margin: 5px 30px;
+}
+section input::placeholder {
+  color: brown;
+  font-size: larger;
+}
+ul li::marker {
+  color: brown;
+}
+aside {
+  color: gray;
+  font-size: small;
+}
+
+aside.comment {
+  color: darkgreen;
+}
