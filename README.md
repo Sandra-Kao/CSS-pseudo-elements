@@ -2,7 +2,7 @@
 
 Please see Codepen: https://codepen.io/K-SY/pen/JjErwYG
 
-## Pseudo elements
+## Introduction of Pseudo elements
   
   - Pseudo element is a keyword added to a CSS selector that lets you style a specific part of the setected HTML element.
   - Pseudo element is different form pseudo classes (:active).
